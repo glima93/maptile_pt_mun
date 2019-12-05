@@ -4,9 +4,9 @@
 Mainland Portuguese municipalities for Stata's [maptile](https://michaelstepner.com/maptile/) package, written by [Michael Stepner](https://github.com/michaelstepner/maptile). Maptile provides a simple method to map a variable in Stata. 
 
 ## How to install it?
-First, if you haven't done it aleady, install maptile and spmap: \\
+First, if you haven't done it aleady, install maptile and spmap:
 `ssc install maptile`
-`ssc intall spmap` \\
+`ssc intall spmap`
 
 For now, the only option to install this geography is manually. 
 Download the zip file with the source folders and save it in PERSONAL/maptile_geographies, which is where maptile loads geographies automatically.
