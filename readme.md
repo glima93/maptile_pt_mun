@@ -1,5 +1,4 @@
 # Maptile Geography: pt_mun, v.0.1
---------------------------------
 
 Mainland Portuguese municipalities for Stata's [maptile](https://michaelstepner.com/maptile/) package. 
 Maptile, written by [Michael Stepner](https://github.com/michaelstepner/maptile), provides a simple method to map a variable in Stata. 
