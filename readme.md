@@ -26,8 +26,11 @@ Alternatively you can save it in any folder in your computer and pass it on to t
     
  ## Example
 
-Here it is how it looks! To create a plot like this, you simply run `maptile [varname], geo(pt_mun)`.
+Here's how it looks! To create a pretty plot like this, you simply run `maptile [varname], geo(pt_mun)`.
 ![Sample map plot](/geo_pt_mun_creation/tests/pt_mun/pt_mun_test_real1.png) 
+
+## Further
+I plan to roll out tiles for additional administrative boundaries (NUTSII, NUTSIII, districts, parishes), as time permits.
 
 ## For the replication files
 
