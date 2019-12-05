@@ -23,6 +23,11 @@ Alternatively you can save it in any folder in your computer and pass it on to t
     
  4. To see the geography's help file, use: 
     `maptile_geohelp pt_mun`
+    
+ ## Example
+
+Here it is how it looks! To create a plot like this, you simply run `maptile [varname], geo(pt_mun)`.
+![Sample map plot](/geo_pt_mun_creation/tests/pt_mun/pt_mun_test_real1.png) 
 
 ## For the replication files
 
