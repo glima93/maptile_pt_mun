@@ -1,7 +1,8 @@
 # Maptile Geography: pt_mun, v.0.1
 --------------------------------
 
-Mainland Portuguese municipalities for Stata's [maptile](https://michaelstepner.com/maptile/) package, written by [Michael Stepner](https://github.com/michaelstepner/maptile). Maptile provides a simple method to map a variable in Stata. 
+Mainland Portuguese municipalities for Stata's [maptile](https://michaelstepner.com/maptile/) package. 
+Maptile, written by [Michael Stepner](https://github.com/michaelstepner/maptile), provides a simple method to map a variable in Stata. 
 
 ## How to install it?
 First, if you haven't done it aleady, install maptile and spmap:
@@ -9,13 +10,14 @@ First, if you haven't done it aleady, install maptile and spmap:
 `ssc intall spmap`
 
 For now, the only option to install this geography is manually. 
-Download the zip file with the source folders and save it in PERSONAL/maptile_geographies, which is where maptile loads geographies automatically.
+Unzip "geo_pt_mun.rar" and save it in PERSONAL/maptile_geographies, which is where maptile loads geographies automatically.
+Alternatively you can save it in any folder in your computer and pass it on to the `, geofolder(folder_path)` option in the `maptile` command. 
 
 ## Using the geography
 
- 1. Choose your dataset wisely. Ensure it is at the municipality level, identified by official 4-digit DICO municipality codes for mainland Portugal. (There is a toy dataset in the folder.)
-    
- 2. Choose the variable you want to map. 
+ 1. Choose your dataset wisely. Make sure it has data by municipality level, identified by official 4-digit DICO municipality codes for mainland Portugal. (There is a toy dataset in the "geo_pt_mun_creation" folder.)
+
+2. Choose the variable you want to map. 
 
  3. Run maptile and specify the geography name (pt_mun):
     `maptile [varname], geo(pt_mun)`
