@@ -1,0 +1,30 @@
+{smcl}
+
+{pstd}{bf:maptile {hline 2} Geography: pt_mun}{p_end}
+
+
+{marker description}{...}
+{title:Description}
+
+{pstd}{bf:pt_mun} generates a map of mainland Portuguese municipalities.{p_end}
+
+{pstd}This template uses municipalities' boundaries as of 2018, according to {browse "http://www.dgterritorio.pt/cartografia_e_geodesia/cartografia/carta_administrativa_oficial_de_portugal_caop/caop__download_/carta_administrativa_oficial_de_portugal___versao_2018__em_vigor_/":CAOP}.{p_end}
+
+
+{marker geographic-id-variable}{...}
+{title:Geographic ID variable}
+
+{synoptset 16 tabbed}{...}
+{synopt:{bf:dico}}DICO 4-digit municipality code{p_end}
+
+{marker author}{...}
+{title:Author}
+
+{pstd}Goncalo Lima{break} goncalo.lima@novasbe.pt{p_end}
+
+
+{marker license}{...}
+{title:License}
+
+{pstd}This geography template is released into the public domain. The shapefile it is derived from is in the public domain, and all code and documentation in this template is released into the public
+domain using the terms of the {browse "http://unlicense.org/":Unlicense}.{p_end}
